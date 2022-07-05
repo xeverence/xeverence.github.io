@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: "GoogleSans400";
+  src: url("./fonts/GoogleSans400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "GoogleSans700";
+  src: url("./fonts/GoogleSans700.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Zen";
+  src: url("./fonts/Zen\ Os.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamSSm-Book_Web.woff2") format("woff");
+}
+
+nav, .offcanvas-header {
+  height: 64px;
+}
+
+.navbar-toggler {
+  border: none;
+  box-shadow: none !important;
+  padding: 0px !important;
+}
+
+.nav-link {
+  margin-right: 16px;
+  font-size: 13.3px;
+}
+
+.nav-link {
+  color: #000 !important;
+  /* font-family: 'Kantumruy Pro', sans-serif; */
+  /* font-family: 'Inter', sans-serif; */
+  font-family: "Gotham";
+  font-weight: 300;
+}
+
+.offcanvas {
+  /* width: 280px !important; */
+  width: 100% !important;
+  border-width: 0px !important;
+}
+
+.offcanvas-header {
+  padding-left: 10.5px !important;
+  padding-right: 21px !important;
+}
+
+/* mobile */
+.nav-link {
+  margin-right: 0px;
+  padding-left: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav-link:focus {
+  background-color: #F7F8F8 !important;
+  color: #202124 !important;
+}
+
+.offcanvas-body {
+  padding: 0px;
+}
+
+.navbar-nav {
+  padding-left: 0px;
+}
+
+.search-icons {
+  padding: 10.5px !important;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+.navbar-icon {
+  padding: 20px !important;
+}
+
+nav {
+  padding: 0px !important
+}
+
+.offcanvas-header {
+  padding: 0px !important;
+}
+
+.offcanvas-logo {
+  padding: 17px;
+}
+
+.banner {
+  width: 100%;
+}
+
+p {
+  font-family: "GoogleSans700" !important;
+  color: #424242 !important;
+}
+
+.copyright-symbol {
+  font-family: 'Inter', sans-serif;
+}
+
+.space-design-logo {
+  height: 21px;
+}
+
+.navbar-brand-image {
+  height: 26px;
+}
+
+.navbar-brand {
+  font-family: "Zen";
+  margin: 0px !important;
+  color: #000;
+}
+
+.social-network-icon {
+  border: 1px solid #dfdfdf;
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.links {
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bottom-logo {
+  font-family: "Zen";
+  color: #fff;
+  font-size: 20px;
+  background-color: #000;
+  padding: 17px;
+  margin: 0 auto !important;
+}
