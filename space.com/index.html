@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Space</title>
+    <link
+      href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar2"
+        >
+          <img src="./icons/menu.svg" class="nav-icon" width="24" height="24" />
+        </button>
+
+        <a href="https://xeverence.github.io/No_Name">
+          <img src="./Rectangle 3 (1).svg" width="64" height="20" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar4"
+          id="victim"
+        >
+          <img
+            src="./icons/search.svg"
+            class="nav-icon"
+            width="24"
+            height="24"
+          />
+        </button>
+        <div class="offcanvas" id="offcanvasNavbar3">
+          <div class="offcanvas-header">
+            <img
+              src="./icons/search.svg"
+              class="nav-icon"
+              width="24"
+              height="24"
+            />
+
+            <input type="text" id="input-2" placeholder="Search..." />
+
+            <img
+              src="./icons/close.svg"
+              class="nav-icon"
+              width="24"
+              height="24"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            />
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center">
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#">Solutions</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="changeTogglerIcon()">
+                  Resources<img src="./icons/chevron_right.svg" class="dropdown-icon" id="resources-toggler" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">News</a></li>
+                  <li><a class="dropdown-item" href="#">Guides</a></li>
+                </ul>
+              </li>
+              <a class="nav-link" href="#">Careers</a>
+              <a class="nav-link" href="#">Partners</a>
+              <a class="nav-link" href="#">Help</a>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-top offcanvas-search-64"
+          id="offcanvasNavbar4"
+          data-bs-backdrop="false"
+        >
+          <div class="offcanvas-header">
+            <img
+              src="./icons/search.svg"
+              class="nav-icon"
+              width="24"
+              height="24"
+            />
+            <input id="input-1" type="text" placeholder="Search..." />
+            <img
+              src="./icons/close.svg"
+              class="nav-icon"
+              width="24"
+              height="24"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            />
+          </div>
+        </div>
+        <div class="offcanvas" id="offcanvasNavbar2">
+          <div class="offcanvas-header">
+            <img
+              src="./icons/close.svg"
+              class="nav-icon"
+              width="24"
+              height="24"
+              data-bs-dismiss="offcanvas"
+            />
+            <a href="https://xeverence.github.io/No_Name">
+              <img src="./Rectangle 3 (1).svg" width="64" height="20" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar3"
+              id="victim2"
+            >
+              <img
+                src="./icons/search.svg"
+                class="nav-icon"
+                width="24"
+                height="24"
+              />
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center">
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#">Solutions</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="changeTogglerIcon2()">
+                  Resources<img src="./icons/chevron_right.svg" class="dropdown-icon" id="resources-toggler2" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">News</a></li>
+                  <li><a class="dropdown-item" href="#">Guides</a></li>
+                </ul>
+              </li>
+              <a class="nav-link" href="#">Careers</a>
+              <a class="nav-link" href="#">Partners</a>
+              <a class="nav-link" href="#">Help</a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
