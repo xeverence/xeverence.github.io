@@ -113,11 +113,9 @@ nav, .offcanvas-header {
 
 input {
   border: 0;
-  background: #F5F5F5;
   border-radius: 64px;
   outline: none;
   padding: 0;
-  padding: 8px 16px;
   font-family: 'Circular Regular';
   width: 100%;
 }
