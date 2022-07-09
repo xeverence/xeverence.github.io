@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Regular';
+  src: url('../../Demo-Criteria_CF/Demo_Fonts/Fontspring-DEMO-criteriacf-regular.otf');
+}
+
+@font-face {
+  font-family: 'extrabold';
+  src: url('../../Demo-Criteria_CF/Demo_Fonts/Fontspring-DEMO-criteriacf-extrabold.otf');
+}
+
+@font-face {
+  font-family: 'Dinamo Bold';
+  src: url('../../Dinamo/ABCDiatypeMono-Bold-Trial.otf');
+}
+
+@font-face {
+  font-family: 'Circular Bold';
+  src: url('../../Circular/Circular-Latin-Web-Fonts/Fonts/CircularXXWebTrial-Bold.woff');
+}
+
+@font-face {
+  font-family: 'Circular Regular';
+  src: url('../../Circular/Circular-Latin-Web-Fonts/Fonts/CircularXXWebTrial-Regular.woff');
+}
+
+@font-face {
+  font-family: 'Circular Medium';
+  src: url('../../Circular/Circular-Latin-Web-Fonts/Fonts/CircularXXWebTrial-Medium.woff');
+}
+
+@font-face {
+  font-family: 'Circular Bold';
+  src: url('../../Circular/Circular-Latin-Web-Fonts/Fonts/CircularXXWebTrial-Bold.woff');
+}
+
+@font-face {
+  font-family: 'Circular Black';
+  src: url('../../Circular/Circular-Latin-Web-Fonts/Fonts/CircularXXWebTrial-Black.woff');
+}
+
+@font-face {
+  font-family: 'Hellix Bold';
+  src: url('../../HellixTRIAL-Bold.otf');
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  font-family: 'Circular Bold';
+  font-size: 16px !important;
+}
+
+nav, .offcanvas-header {
+  height: 64px;
+  background: #fff;
+}
+
+.navbar, .offcanvas-header, .navbar-brand, .nav-link, .offcanvas-body {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-toggler {
+  padding: 0;
+  border: 0;
+  box-shadow: none !important;
+}
+
+.nav-icon {
+  margin: 20px;
+}
+
+.nav-link {
+  color: #000 !important;
+  padding: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline !important;
+  text-underline-position: under !important;
+}
+
+.navbar-logo {
+  text-decoration: none;
+  font-family: 'Hellix Bold';
+  font-size: 22px !important;
+  color: #000 !important;
+  margin-top: -6px !important;
+}
+
+.navbar-logo:hover {
+  text-decoration: none !important;
+}
+
+.offcanvas {
+  border-width: 0px !important;
+  background: #fff !important;
+  transition-duration: 0s;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+::selection {
+  background-color: #1c1e21 !important;
+  color: #fff !important;
+}
+
+.banner {
+  width: 100%;
+}
+
+.offcanvas-search-64 {
+  height: 64px !important;
+}
+
+input {
+  border: 0;
+  outline: none;
+  padding: 0;
+  font-family: 'Circular Medium';
+  width: 100%;
+}
+
+::placeholder {
+  color: #4b4b4b;
+  font-family: 'Circular Medium';
+}
