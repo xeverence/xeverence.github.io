@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "Circular Thin";
+  src: url("./fonts/Circular-Thin.woff");
+}
+
+@font-face {
+  font-family: "Circular Light";
+  src: url("./fonts/Circular-Light.woff");
+}
+
+@font-face {
+  font-family: "Circular Regular";
+  src: url("./fonts/Circular-Regular.woff");
+}
+
+@font-face {
+  font-family: "Circular Book";
+  src: url("./fonts/Circular-Book.woff");
+}
+
+@font-face {
+  font-family: "Circular Medium";
+  src: url("./fonts/Circular-Medium.woff");
+}
+
+@font-face {
+  font-family: "Circular Bold";
+  src: url("./fonts/Circular-Bold.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circular Black";
+  src: url("./fonts/Circular-Black.woff");
+}
+
+@font-face {
+  font-family: "Circular ExtraBlack";
+  src: url("./fonts/Circular-ExtraBlack.woff");
+}
+
+* {
+  font-family: "Circular Bold";
+  -webkit-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -o-transition-property: none !important;
+  transition-property: none !important;
+  transition: unset !important;
+  transition: width 0s !important;
+}
+
+nav, .offcanvas-header {
+  height: 64px;
+  background: #fff;
+}
+
+.navbar,
+.offcanvas-header,
+.nav-link,
+.offcanvas-body {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-toggler {
+  padding: 0;
+  border: 0;
+  box-shadow: none !important;
+}
+
+.nav-icon {
+  margin: 20px;
+}
+
+.nav-link {
+  color: #000 !important;
+  padding: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.offcanvas {
+  border-width: 0px !important;
+  background: #fff;
+  transition-duration: 0.000s !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+::selection {
+  background-color: #75D97D !important;
+  color: #000 !important;
+}
+
+.offcanvas-search-64 {
+  height: 64px !important;
+}
+
+input {
+  border: 0;
+  outline: none;
+  padding: 0;
+  width: 100%;
+}
+
+::placeholder {
+  color: #636363;
+}
+
+.dropdown-menu {
+  padding: 0;
+  margin: 0 !important;
+  border: 0;
+}
+
+.dropdown-item {
+  padding: 0;
+  padding: 13.5px 20px;
+  font-size: 14px;
+  font-family: "Circular Regular";
+}
+
+.dropdown-icon {
+  float: right;
+}
+
+.dropdown .nav-link:hover {
+  text-decoration: none !important;
+}
+
+.row {
+  width: 100%;
+}
