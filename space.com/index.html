@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Space</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./assets/dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./stylesheet.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas-nav"
+        >
+          <img
+            src="./assets/icons/menu.svg"
+            alt=""
+            class="nav-icon"
+            width="24"
+            height="24"
+          />
+        </button>
+
+        <a href="https://xeverence.github.io/space.com">
+          <img src="./assets/images/logo.svg" alt="" width="64" height="20" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas-search"
+          id="victim"
+        >
+          <img
+            src="./assets/icons/search.svg"
+            width="24"
+            height="24"
+            alt=""
+            class="nav-icon"
+          />
+        </button>
+        <div class="offcanvas" id="offcanvasNavbar3">
+          <div class="offcanvas-header">
+            <img
+              src="./assets/icons/search.svg"
+              alt=""
+              class="nav-icon"
+              width="24"
+              height="24"
+            />
+            <input type="text" placeholder="Search..." id="input-2" />
+            <img
+              src="./assets/icons/close.svg"
+              width="24"
+              height="24"
+              alt=""
+              class="nav-icon"
+              data-bs-dismiss="offcanvas"
+            />
+          </div>
+          <div class="navbar-nav justify-content-center">
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Products</a>
+            <a class="nav-link" href="#">Solutions</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Careers</a>
+            <a class="nav-link" href="#">Partners</a>
+            <a class="nav-link" href="#">Help</a>
+          </div>
+        </div>
+        <div
+          class="offcanvas offcanvas-top offcanvas-search-64"
+          id="offcanvas-search"
+          data-bs-backdrop="false"
+        >
+          <div class="offcanvas-header">
+            <img
+              src="./assets/icons/search.svg"
+              width="24"
+              height="24"
+              alt=""
+              class="nav-icon"
+            />
+            <input id="input-1" type="text" placeholder="Search..." />
+            <img
+              src="./assets/icons/close.svg"
+              width="24"
+              height="24"
+              alt=""
+              class="nav-icon"
+              data-bs-dismiss="offcanvas"
+            />
+          </div>
+        </div>
+        <div class="offcanvas" id="offcanvas-nav">
+          <div class="offcanvas-header">
+            <img
+              src="./assets/icons/close.svg"
+              width="24"
+              height="24"
+              alt=""
+              class="nav-icon"
+              data-bs-dismiss="offcanvas"
+            />
+            <a href="https://xeverence.github.io/space.com">
+              <img
+                src="./assets/images/logo.svg"
+                width="64"
+                height="20"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar3"
+              id="victim2"
+            >
+              <img
+                src="./assets/icons/search.svg"
+                width="24"
+                height="24"
+                alt=""
+                class="nav-icon"
+              />
+            </button>
+          </div>
+          <div class="navbar-nav justify-content-center">
+            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link" href="/products">Products</a>
+            <a class="nav-link" href="/solutions">Solutions</a>
+            <a class="nav-link" href="/blog">Blog</a>
+            <a class="nav-link" href="/careers">Careers</a>
+            <a class="nav-link" href="/partners">Partners</a>
+            <a class="nav-link" href="/help">Help</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script src="./assets/dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.onload(
+        document.getElementById("victim").addEventListener("click", () => {
+          setTimeout(function () {
+            document.getElementById("input-1").focus();
+          }, 1);
+        }),
+
+        document.getElementById("victim2").addEventListener("click", () => {
+          setTimeout(function () {
+            document.getElementById("input-2").focus();
+          }, 1);
+        })
+      );
+    </script>
+  </body>
+</html>
